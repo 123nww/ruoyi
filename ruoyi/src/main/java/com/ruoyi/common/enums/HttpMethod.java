@@ -33,4 +33,5 @@ public enum HttpMethod
     {
         return (this == resolve(method));
     }
+
 }

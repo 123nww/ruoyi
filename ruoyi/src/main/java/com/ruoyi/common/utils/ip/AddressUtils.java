@@ -13,7 +13,7 @@ import com.ruoyi.framework.config.RuoYiConfig;
  * 
  * @author ruoyi
  */
-public class AddressUtils
+public class AddressUtils<main>
 {
     private static final Logger log = LoggerFactory.getLogger(AddressUtils.class);
 
@@ -53,4 +53,5 @@ public class AddressUtils
         }
         return address;
     }
+
 }

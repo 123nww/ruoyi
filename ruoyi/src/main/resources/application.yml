@@ -57,11 +57,11 @@ spring:
   # redis 配置
   redis:
     # 地址
-    host: localhost
+    host: 192.168.101.15
     # 端口，默认为6379
     port: 6379
     # 密码
-    password: 
+    password: NWW123456
     # 连接超时时间
     timeout: 10s
     lettuce:
@@ -126,3 +126,4 @@ gen:
   autoRemovePre: false
   # 表前缀（生成类名不会包含表前缀，多个用逗号分隔）
   tablePrefix: sys_
+
